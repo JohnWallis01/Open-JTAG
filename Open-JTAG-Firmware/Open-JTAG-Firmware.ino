@@ -84,6 +84,7 @@ void loop() {
     digitalWrite(TDI, HIGH);
   }
   digitalWrite(TCK, HIGH);
+  
   if (digitalRead(TDO) == HIGH) {
     Serial.write(1);
   }
